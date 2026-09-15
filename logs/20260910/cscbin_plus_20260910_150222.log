@@ -1,0 +1,7 @@
+2026-09-10 15:03:13 - cscbin_plus - INFO - [meta_master_score] 开始回测 [20190101 ~ 20241231]
+2026-09-10 15:03:58 - cscbin_plus - INFO - [meta_master_score] 按因子数据范围调整回测区间: [20190101 ~ 20241231] -> [20190102 ~ 20241231]
+2026-09-10 15:04:23 - cscbin_plus - INFO - 收益率数据加载成功，形状: (1456, 6426)
+2026-09-10 15:04:48 - cscbin_plus - INFO - 因子 meta_master_score 绩效生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\perf\meta_master_score_perf.csv
+2026-09-10 15:04:48 - cscbin_plus - INFO - 因子 meta_master_score 日收益生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\pnl\meta_master_score_pnl.csv
+2026-09-10 15:04:48 - cscbin_plus - INFO - 因子 meta_master_score 换手率生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\turnover\meta_master_score_turnover.csv
+2026-09-10 15:04:48 - cscbin_plus - INFO - [meta_master_score] 回测完成, 年化收益: -24.6520%

@@ -1,0 +1,2 @@
+2026-09-10 13:27:20 - cscbin_plus - INFO - [test] 开始回测 [20240101 ~ 20240630]
+2026-09-10 13:27:20 - cscbin_plus - ERROR - [test] 回测失败: 本地因子 test 不存在于 E:\zxjt\zyh_temp\meta_master_readme\factor_values. （期望 meta_master_score_test_*.pq 或 test.pq）

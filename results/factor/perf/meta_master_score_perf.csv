@@ -1,0 +1,2 @@
+total_return,annual_return,annual_volatility,sharpe_ratio,max_drawdown,win_rate,avg_win,avg_loss,profit_loss_ratio,excess_return,excess_annual_return,tracking_error,information_ratio,factor_id,start_dt,end_dt,n_quantile,neutralize,long_short
+-0.8261818186268677,-0.2612831323784912,0.18520352232804624,-1.7029822290889924,0.938734979677474,0.46565934065934067,0.0077299219986972974,-0.008867254407661885,0.8717379296141703,-0.8905869011434053,-0.31815591968746293,0.24065602135649855,-1.4684735880846183,meta_master_score,20190102,20241231,10,0,1

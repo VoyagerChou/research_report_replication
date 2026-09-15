@@ -1,0 +1,8 @@
+2026-09-10 13:42:03 - cscbin_plus - INFO - [meta_master_score] 开始回测 [20240101 ~ 20240630]
+2026-09-10 13:42:04 - cscbin_plus - INFO - [meta_master_score] 按因子数据范围调整回测区间: [20240101 ~ 20240630] -> [20240102 ~ 20240628]
+2026-09-10 13:42:04 - cscbin_plus - WARNING - [meta_master_score] 检测到因子截面可能未标准化：104/117 个有效交易日异常 (88.9%)，已按交易日补做 z-score；缺失值保持为 NaN
+2026-09-10 13:42:42 - cscbin_plus - INFO - 收益率数据加载成功，形状: (117, 6426)
+2026-09-10 13:43:39 - cscbin_plus - INFO - 因子 meta_master_score 绩效生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\perf\meta_master_score_perf.csv
+2026-09-10 13:43:39 - cscbin_plus - INFO - 因子 meta_master_score 日收益生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\pnl\meta_master_score_pnl.csv
+2026-09-10 13:43:39 - cscbin_plus - INFO - 因子 meta_master_score 换手率生成成功，结果已保存在: ./zyh_temp\meta_master_readme\results\factor\turnover\meta_master_score_turnover.csv
+2026-09-10 13:43:39 - cscbin_plus - INFO - [meta_master_score] 回测完成, 年化收益: 0.0000%
