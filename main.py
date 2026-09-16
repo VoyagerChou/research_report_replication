@@ -15,6 +15,7 @@ Meta Master alpha 模型 = MASTER 骨干 + 183 维市场状态门控 + 加权 MS
   python main.py eval      # 评价 DoubleAdapt 因子（周频RankIC + 双周多头回测）
   python main.py master    # 静态 MASTER 因子线：逐年训练 + 逐日打分落库（可另一张卡并行）
   python main.py eval master   # 评价静态 MASTER 因子
+  python main.py align     # 研报口径对齐回测（分年对比表；口径见 指标计算口径.md）
   python main.py compare       # 横向对照表（全部已跑评价，纯读盘）
   python main.py drmcheck      # DRM 验收诊断
 
@@ -51,6 +52,10 @@ def main():
         from evaluate import factor_eval          # `python main.py eval master` 评静态MASTER线
         line = sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] in ('da', 'master') else 'da'
         factor_eval.main(line)
+
+    if stage in ('align',):                       # 研报口径对齐回测（重建版，自包含）
+        from evaluate import report_align
+        report_align.main()
 
     if stage in ('compare',):                     # 横向对照表(因子线×训练池×评价池,纯读盘)
         from evaluate import compare
